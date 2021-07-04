@@ -1,0 +1,1 @@
+CREATE TABLE saldoawalkredit (faktur VARCHAR (25), rekening VARCHAR (25), pokok DOUBLE, bunga DOUBLE, denda DOUBLE, username VARCHAR (25), datetime DATETIME) TYPE = MyISAM;

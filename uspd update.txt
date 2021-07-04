@@ -1,0 +1,15 @@
+Dim n As Single
+
+  If nNumber.Value - 1 <= vaArray.UpperBound(1) And nNumber.Value >= 1 Then
+    n = nNumber.Value - 1
+    cBarcode.Text = vaArray(n, 1)
+    cNama.Text = vaArray(n, 2)
+    nQty.Value = vaArray(n, 3)
+    cSatuan.Text = vaArray(n, 4)
+    nHarga.Value = vaArray(n, 5)
+    nDiscount.Value = vaArray(n, 6)
+    nJumlah.Value = vaArray(n, 7)
+    cRak.Text = vaArray(n, 8)
+  ElseIf nNumber.Value - 2 > vaArray.UpperBound(1) Or nNumber.Value <= 0 Then
+    nNumber.Value = vaArray.UpperBound(1) + 2
+  End If

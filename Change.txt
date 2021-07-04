@@ -1,0 +1,37 @@
+10:03 AM 29-04-2006
+Judul laporan pemberian bunga simpanan masih salah, yg tertera adalah bunga pinjaman
+
+
+7:44 AM 21-08-2005
+1. Istilah Master Nasabah diganti dengan istilah Master Anggota
+2. Pada isian master anggota, diisi kolom pilihan, anggota biasa dan anggota luar biasa.
+3. Pada realisasi kredit dimunculkan data informasi keuangannya.
+4. Pada pembukaan deposito kolom jangka waktu bisa di edit.
+
+Database :
+File : 
+update_20050821.sql
+update_20050823.sql
+
+Catatan.
+Sebelum program di operasikan jalankan modul update golongan Deposito yang ada pada menu BSM_Utility
+
+3:18 PM 18-08-2005
+1. Pemberian otorisasi sesuai dengan plafond tidak tercatat sesuai dengan nama pemberi otorisasi. Melainkan
+   masih tercatat nama yang login. 
+
+3:17 PM 16-08-2005
+
+1. Cetakan validasi (tabungan) tidak bisa digunakan
+   * Tidak ada masalah dengan program, nilai setup buku simpanan tidak boleh = 0
+2. Istilah Kredit dan tabungan pada program sudah diganti dengan pinjaman dan simpanan, kecuali pada menu BSM_Utility
+   masih menggunakan istilah lama (Tidak diganti karena menu ini adalah keperluaan internal BSM saja)
+3. Pada transaksi Pengajuan Pinjaman, terdapat perubahan. Yaitu adanya tambahan kolom Pendapatan dan Biaya yang disesuaikan
+   dengan permintaan. Begitupula, baik pos pendapatan dan biaya sudah disediakan kolom jumlahnya.
+4. Laporan buku angsuran tidak bisa di preview
+
+Update Database:
+File : update_20050816.sql
+
+
+TODO:

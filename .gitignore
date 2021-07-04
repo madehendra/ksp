@@ -1,0 +1,6 @@
+dist/
+report/
+*.log
+*.obj
+fresh-install/
+*.exe

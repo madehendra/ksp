@@ -1,0 +1,3 @@
+IP = localhost
+DATABASE = tim
+DSN = su

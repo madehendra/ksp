@@ -1,0 +1,13 @@
+Program ini akan melakukan update software iUSPD
+Semua proses akan dilakukan secara otomatis.
+Pastikan program iUSPD tidak sedang dijalankan ketika proses
+update dilakukan. Karena  jika tidak, proses update akan gagal.
+
+Setelah proses update selesai, jalankan program seperti biasa.
+Jika muncul malfunction akibat dari proses update ini, silahkan hubungi alamat berikut.
+
+Please contact directly:
+An. made hendra
+Email: made.hendra@gmail.com
+GSM: +62 81 338 414 828
+htt://www.ibelog.tk

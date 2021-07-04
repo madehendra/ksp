@@ -1,0 +1,19 @@
+Private Sub GetWallpaper()
+  On Error GoTo EmptyPicture:
+  CommonDialog1.Filter = "Picture (*.BMP;*.JPG;*.GIF) |*.BMP;*.JPG;*.GIF|"
+  CommonDialog1.FileName = GetRegistry(reg_Wallpaper)
+  CommonDialog1.Action = 1
+  If Trim(CommonDialog1.FileName) <> "" And Dir(CommonDialog1.FileName) <> "" Then
+    Me.Picture = LoadPicture(GetPicture(CommonDialog1.FileName))
+    Me.Hide
+    Me.Show
+  End If
+
+  SaveRegistry reg_Wallpaper, CommonDialog1.FileName
+  Exit Sub
+  
+EmptyPicture:
+  CommonDialog1.FileName = ""
+  Me.Picture = LoadPicture("")
+  Resume Next
+End Sub
